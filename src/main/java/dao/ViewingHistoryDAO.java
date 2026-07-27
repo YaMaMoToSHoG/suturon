@@ -1,4 +1,4 @@
-package com.suturon.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,8 +9,8 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.suturon.entity.ViewingHistory;
-import com.suturon.util.DatabaseConnection;
+import servlet.DatabaseConnection;
+import servlet.ViewingHistory;
 
 /**
  * 視聴履歴を操作するDAO

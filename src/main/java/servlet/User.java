@@ -1,4 +1,4 @@
-package com.suturon.entity;
+package servlet;
 
 import java.time.LocalDateTime;
 
